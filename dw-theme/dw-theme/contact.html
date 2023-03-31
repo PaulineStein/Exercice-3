@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nous contacter - Promotion DW2020-1</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<a href="#main-menu" class="screen-reader-text">Aller à la navigation principale</a>
+	<a href="#main-content" class="screen-reader-text">Aller au contenu principal</a>
+	<header class="main-header">
+		<div class="container">
+			<div class="logo"><a href="index.html">DW</a></div>
+			<nav class="main-nav">
+				<button aria-expanded="false" aria-controls="main-menu">Menu</button>
+				<ul class="menu" id="main-menu" hidden>
+					<li class="menu-item"><a href="index.html">Accueil</a></li>
+					<li class="menu-item"><a href="formation-liste.html">La formation</a></li>
+					<li class="menu-item"><a href="etudiant-liste.html">Les étudiants</a></li>
+					<li class="menu-item"><a href="actualite-liste.html">Actualités</a></li>
+					<li class="menu-item active"><a href="contact.html">Nous contacter</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main id="main-content">
+		<div class="container">
+			<h1>Nous contacter</h1>
+			<form action="" class="contact-form">
+				<label for="name" class="field">
+					<span class="label-content">Votre nom</span>
+					<input type="text" placeholder="Entrez votre nom" required>
+				</label>
+				<label for="email" class="field">
+					<span class="label-content">Votre e-mail</span>
+					<input type="email" placeholder="Entrez votre adresse e-mail" required>
+				</label>
+				<label for="msg" class="field">
+					<span class="label-content">Votre message</span>
+					<textarea id="msg" placeholder="Tapez votre message" required></textarea>
+				</label>
+				<button type="submit">Envoyer <img loading="lazy"  src="img/icon-arrow-right.svg" alt="" aria-hidden="true"></button>
+			</form>
+		</div>
+	</main>
+	<footer class="main-footer">
+		<div class="container">
+			<address>
+				<strong>Designer Web</strong><br>
+				CEFIM<br>
+				32 Avenue Marcel Dassault<br>
+				37200 Tours<br>
+				T : <a href="tel:0247402680">02 47 40 26 80</a>
+			</address>
+			<nav class="footer-nav">
+				<ul class="menu">
+					<li class="menu-item"><a href="page-simple.html">Mentions légales</a></li>
+					<li class="menu-item"><a href="page-simple.html">Politique de confidentialité</a></li>
+				</ul>
+			</nav>
+			<nav class="social-nav">
+				<ul class="menu">
+					<li class="menu-item"><a href="https://www.facebook.com/cefimformation/" target="_blank"><span class="screen-reader-text">Facebook du CEFIM</span><img loading="lazy"  src="img/icon-facebook.svg" alt="Facebook"></a></li>
+					<li class="menu-item"><a href="https://twitter.com/cefimFormation/" target="_blank"><span class="screen-reader-text">Twitter du CEFIM</span><img loading="lazy"  src="img/icon-twitter.svg" alt="Twitter"></a></li>
+					<li class="menu-item"><a href="https://www.linkedin.com/school/cefim/" target="_blank"><span class="screen-reader-text">LinkedIn du CEFIM</span><img loading="lazy"  src="img/icon-linkedin.svg" alt="LinkedIn"></a></li>
+				</ul>
+			</nav>
+		</div>
+	</footer>
+	<script src="js/nav.js"></script>
+</body>
+</html>
